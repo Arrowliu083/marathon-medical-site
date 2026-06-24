@@ -32,12 +32,12 @@ export default function HeroFeature({ article }: HeroFeatureProps) {
         </div>
 
         {/* Title */}
-        <h1 className="font-sans font-bold text-[clamp(1.75rem,4vw,3.25rem)] mb-5 max-w-[32ch] text-text-primary leading-[1.15] tracking-[-0.015em]">
+        <h1 className="font-sans font-bold text-[clamp(2.5rem,5vw,5.5rem)] mb-5 text-text-primary leading-[1.05] tracking-[-0.02em]">
           {article.title}
         </h1>
 
         {/* Subtitle */}
-        <p className="text-[16px] leading-relaxed max-w-[65ch] mb-8 text-text-secondary">
+        <p className="text-[17px] leading-relaxed mb-8 text-text-secondary max-w-[55ch]">
           {locale === 'zh' ? article.summary : article.summaryEn}
         </p>
 
