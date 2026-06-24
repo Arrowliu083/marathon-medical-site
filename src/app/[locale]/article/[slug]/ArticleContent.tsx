@@ -122,7 +122,7 @@ export default function ArticleContent({ meta, content, messages: t }: ArticleCo
           </div>
 
           {/* Title — same left as author, same right as date */}
-          <h1 className="font-sans font-bold text-[clamp(2rem,5vw,4.75rem)] mb-6 text-text-primary leading-[1.08] tracking-[-0.01em]" style={{ textWrap: 'balance' }}>
+          <h1 className="font-sans font-bold text-[clamp(2rem,5vw,4.75rem)] mb-6 text-text-primary leading-[1.08] tracking-[-0.01em]">
             {content.title}
           </h1>
 
