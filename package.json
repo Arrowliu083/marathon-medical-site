@@ -1,0 +1,31 @@
+{
+  "name": "marathon-medical-site",
+  "version": "1.0.0",
+  "description": "Marathon Medical Support Standards Website",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "deploy": "node scripts/deploy.js",
+    "deploy:only": "node scripts/deploy.js --no-build"
+  },
+  "dependencies": {
+    "@types/node": "^26.0.0",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.5.0",
+    "cos-nodejs-sdk-v5": "^2.15.4",
+    "framer-motion": "^12.40.0",
+    "next": "^14.2.35",
+    "next-intl": "^4.13.0",
+    "postcss": "^8.5.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^6.0.3"
+  }
+}

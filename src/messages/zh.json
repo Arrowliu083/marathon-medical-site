@@ -1,0 +1,52 @@
+{
+  "nav": {
+    "home": "首页",
+    "standards": "标准解读",
+    "interviews": "专家访谈",
+    "about": "关于标准",
+    "language": "EN"
+  },
+  "home": {
+    "heroTag": "行业标准",
+    "heroTitle": "马拉松医疗保障",
+    "heroSubtitle": "从经验驱动到标准驱动，守护跑者生命安全",
+    "heroCTA": "了解更多",
+    "featuredStories": "精选文章",
+    "latestUpdates": "最新动态",
+    "keyData": "关键数据",
+    "stats": {
+      "standards": "首批行业标准",
+      "experts": "起草专家",
+      "survivalRate": "心脏骤停救活率",
+      "events": "保障赛事"
+    }
+  },
+  "article": {
+    "backToHome": "← 返回首页",
+    "publishedOn": "发布时间",
+    "author": "作者",
+    "category": "分类",
+    "readMore": "阅读全文",
+    "relatedArticles": "相关文章"
+  },
+  "category": {
+    "standards": "标准解读",
+    "interviews": "专家访谈",
+    "news": "行业动态",
+    "allArticles": "全部文章"
+  },
+  "footer": {
+    "standards": "标准文件",
+    "standard1": "T/CADERM 8001-2021 人员配置要求",
+    "standard2": "T/CADERM 8002-2021 设施设备配置要求",
+    "publishedBy": "发布单位",
+    "association1": "中国医学救援协会",
+    "association2": "中国田径协会",
+    "contact": "联系我们",
+    "contactEmail": "Liaoyukun@sos919.com.cn",
+    "supportedBy": "公益支持",
+    "support1": "腾讯公益",
+    "support2": "悦尔基金会",
+    "copyright": "© 2026 马拉松医疗保障标准推广项目"
+  }
+}

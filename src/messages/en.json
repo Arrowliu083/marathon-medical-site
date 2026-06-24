@@ -1,0 +1,52 @@
+{
+  "nav": {
+    "home": "Home",
+    "standards": "Standards",
+    "interviews": "Interviews",
+    "about": "About",
+    "language": "中文"
+  },
+  "home": {
+    "heroTag": "INDUSTRY STANDARDS",
+    "heroTitle": "Marathon Medical Support",
+    "heroSubtitle": "From experience-driven to standard-driven, safeguarding runners' lives",
+    "heroCTA": "Learn More",
+    "featuredStories": "Featured Stories",
+    "latestUpdates": "Latest Updates",
+    "keyData": "Key Data",
+    "stats": {
+      "standards": "First Standards",
+      "experts": "Drafting Experts",
+      "survivalRate": "Cardiac Arrest Survival",
+      "events": "Events Covered"
+    }
+  },
+  "article": {
+    "backToHome": "← Back to Home",
+    "publishedOn": "Published",
+    "author": "Author",
+    "category": "Category",
+    "readMore": "Read More",
+    "relatedArticles": "Related Articles"
+  },
+  "category": {
+    "standards": "Standards Interpretation",
+    "interviews": "Expert Interviews",
+    "news": "Industry News",
+    "allArticles": "All Articles"
+  },
+  "footer": {
+    "standards": "Standard Documents",
+    "standard1": "T/CADERM 8001-2021 Personnel Requirements",
+    "standard2": "T/CADERM 8002-2021 Facility Requirements",
+    "publishedBy": "Published By",
+    "association1": "China Association for Medical Rescue",
+    "association2": "Chinese Athletics Association",
+    "contact": "Contact Us",
+    "contactEmail": "Liaoyukun@sos919.com.cn",
+    "supportedBy": "Supported By",
+    "support1": "Tencent Charity",
+    "support2": "Yuer Foundation",
+    "copyright": "© 2026 Marathon Medical Support Standards Project"
+  }
+}
