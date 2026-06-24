@@ -11,11 +11,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           {/* Logo & Description */}
           <div className="md:col-span-1">
-            <div className="display-hero text-[28px] leading-none text-accent mb-2">
-              MARATHON FIRSTAID
-            </div>
-            <p className="text-[13px] text-text-secondary leading-relaxed">
+            <div className="font-sans font-bold text-[20px] text-text-primary mb-1 leading-tight">
               马拉松医疗保障标准及最佳实践
+            </div>
+            <p className="text-[11px] text-text-secondary tracking-[0.08em] uppercase">
+              MARATHON FIRSTAID
             </p>
           </div>
 
