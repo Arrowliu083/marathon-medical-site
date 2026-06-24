@@ -28,9 +28,17 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
     // Italic
     html = html.replace(/\*(.+?)\*/g, '<em>$1</em>');
 
-    // Unordered lists
-    html = html.replace(/^- (.+)$/gm, '<li>$1</li>');
-    html = html.replace(/((?:<li>.*<\/li>\n?)+)/g, '<ul>$1</ul>');
+    // Unordered lists — wrap consecutive <li> that are NOT preceded by a digit
+    html = html.replace(/^- (.+)$/gm, '<li-u>$1</li-u>');
+    // Ordered lists
+    html = html.replace(/^\d+\. (.+)$/gm, '<li-o>$1</li-o>');
+    // Wrap consecutive <li-u> into <ul>
+    html = html.replace(/((?:<li-u>.*?<\/li-u>\n?)+)/g, '<ul>$1</ul>');
+    // Wrap consecutive <li-o> into <ol>
+    html = html.replace(/((?:<li-o>.*?<\/li-o>\n?)+)/g, '<ol>$1</ol>');
+    // Clean up temp tags
+    html = html.replace(/<li-u>/g, '<li>').replace(/<\/li-u>/g, '</li>');
+    html = html.replace(/<li-o>/g, '<li>').replace(/<\/li-o>/g, '</li>');
 
     // Tables (simple)
     html = html.replace(/^\|(.+)\|$/gm, (match: string) => {
@@ -52,6 +60,8 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
     html = html.replace(/<\/h([23])><\/p>/g, '</h$1>');
     html = html.replace(/<p><ul>/g, '<ul>');
     html = html.replace(/<\/ul><\/p>/g, '</ul>');
+    html = html.replace(/<p><ol>/g, '<ol>');
+    html = html.replace(/<\/ol><\/p>/g, '</ol>');
     html = html.replace(/<p><blockquote>/g, '<blockquote>');
     html = html.replace(/<\/blockquote><\/p>/g, '</blockquote>');
     html = html.replace(/<p><blockquote-line>/g, '<blockquote-line>');
