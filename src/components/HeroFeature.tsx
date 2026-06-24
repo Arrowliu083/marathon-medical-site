@@ -32,22 +32,22 @@ export default function HeroFeature({ article }: HeroFeatureProps) {
         </div>
 
         {/* Title */}
-        <h1 className="display-hero text-[clamp(2.5rem,6vw,7.438rem)] mb-6 max-w-4xl text-text-primary">
+        <h1 className="font-sans font-bold text-[clamp(1.75rem,4vw,3.25rem)] mb-5 max-w-[32ch] text-text-primary leading-[1.15] tracking-[-0.015em]">
           {article.title}
         </h1>
 
         {/* Subtitle */}
-        <p className="body-large max-w-2xl mb-8">
+        <p className="text-[16px] leading-relaxed max-w-[65ch] mb-8 text-text-secondary">
           {locale === 'zh' ? article.summary : article.summaryEn}
         </p>
 
         {/* Meta row */}
         <div className="flex items-center gap-4 mb-8 flex-wrap">
-          <span className="mono-label text-[11px] text-text-secondary">
+          <span className="text-[14px] font-medium text-text-primary">
             {article.author}
           </span>
           <span className="text-text-secondary opacity-30">|</span>
-          <span className="mono-label text-[11px] text-text-secondary">
+          <span className="text-[14px] text-text-secondary">
             {article.date}
           </span>
           <span className="pill-tag pill-tag--accent">
