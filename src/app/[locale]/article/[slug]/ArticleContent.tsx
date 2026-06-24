@@ -115,7 +115,7 @@ export default function ArticleContent({ meta, content, messages: t }: ArticleCo
               {categoryLabel}
             </span>
             {content.tags && content.tags.map((tag: string) => (
-              <span key={tag} className="mono-label text-[10px] text-text-secondary">
+              <span key={tag} className="mono-label text-[12px] text-text-secondary">
                 #{tag.replace(/'/g, '')}
               </span>
             ))}
