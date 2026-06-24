@@ -1,0 +1,58 @@
+3:I[4707,[],""]
+6:I[6423,[],""]
+4:["locale","zh","d"]
+5:["slug","li-zonghao-speech","d"]
+0:["j7Hu35gSLeSVgmD6k1ge-",[[["",{"children":[["locale","zh","d"],{"children":["article",{"children":[["slug","li-zonghao-speech","d"],{"children":["__PAGE__?{\"locale\":\"zh\",\"slug\":\"li-zonghao-speech\"}",{}]}]}]}]},"$undefined","$undefined",true],["",{"children":[["locale","zh","d"],{"children":["article",{"children":[["slug","li-zonghao-speech","d"],{"children":["__PAGE__",{},[["$L1","$L2",null],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","$4","children","article","children","$5","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","$4","children","article","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/217703374ed129d6.css","precedence":"next","crossOrigin":"$undefined"}]],"$L7"],null],null]},[[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]],null],null],["$L8",null]]]]
+a:I[5605,["341","static/chunks/341-40e4e5abec9e672e.js","241","static/chunks/app/%5Blocale%5D/article/%5Bslug%5D/page-ccec590a1a0f5925.js"],"default"]
+7:["$","html",null,{"lang":"zh","children":["$","body",null,{"children":"$L9"}]}]
+b:T1662,> 在腾讯公益和悦尔基金会支持下，我们邀请T/CADERM 8001-2021和T/CADERM 8002-2021两部马拉松医疗保障标准的发布单位及参与起草的专家，就马拉松医疗保障及标准的实施发表系列文章及采访，并举办了专题研讨会议。如您对上述两个标准的内容和实施，以及马拉松医疗保障有相关问题和意见，欢迎致信：Liaoyukun@sos919.com.cn
+
+2026年3月23日，马拉松医疗保障标准解读及实施经验分享交流行业座谈会在绍兴成功举办。标准制定及发布单位中国医学救援协会原会长李宗浩先生、参与标准制定的卫生应急领域主管单位领导、专家代表、赛事运营公司代表、马拉松运动参与者代表等通过线下、线上参与本次会议。
+
+本文为标准起草专家组组长、中国医学救援协会原会长——李宗浩教授在本次会议的发言。
+
+## 致辞全文
+
+各位领导、专家、来自绍兴本地和全国各地的路跑和急救行业代表，朋友们，大家好！
+
+我是李宗浩，中国医学救援协会的原会长，从事急救医学事业已超过一个"甲子"，64年了。原来在北京急救中心工作，既是一个老医生，同时又担负着行政事务，参与国内外重大灾害救援和学术交流。
+
+早在2006年，我对"我国现有的医学救援体系主要以医院为主，但突发公共事件的应急处理与医院外的医学救援紧密相关，有必要成立一个医学救援的行业协会来规范及提高我国医学救援行业的整体水平，加强公众的急救意识和普及医学救援知识技术"的这一建议得到国家卫生部的支持、申报成立协会。2009年1月，经国家民政部批准，中国医学救援协会成立。协会的成立，开创了我国医学救援事业发展的新篇章。
+
+中国医学救援协会宗旨是**"挽救生命、减轻伤残"**。创会十几年的基础工作目标是**"立体救援、规范行标"**，也就是说陆地、水上、空中及地下的全方位的急救行业至今已经制定和发布的标准超过了120个，覆盖灾难救援、院前急救、装备规范、航空医疗、中毒处置、创伤救治等领域，是国内医学救援标准化的核心力量。其中就包括了《马拉松赛事现场医疗保障人员配置要求》、《马拉松赛事现场医疗保障设施设备配置要求》这些标准。
+
+### 标准起草发布情况介绍
+
+今天的会议主题，是"马拉松赛事现场医疗保障标准解读和实施经验交流行业研讨会"，是聚焦这两项标准的起草专家和行业代表的主题讨论。
+
+作为这两项标准的专家组组长，我来介绍一下情况。
+
+2021年5月22日，甘肃白银的百公里越野赛，发生了令人悲痛的公共安全责任事件，其中赛事医疗保障机制的缺乏，医学救援能力的缺失是一个重要原因。作为中国医学救援协会，本人一生中又多次担任重大赛事的组织者和参与者，我们有责任，有义务，也有能力，从医学救援的专业立场，从规范行标的工作角度，应该为参加赛事的运动员和人民群众提供生命安全保障，减少和避免公共安全责任事件的发生。
+
+我们和中国田径协会联合成立了专家组，邀请组织了国内顶级的专家团队，共同起草科学精准的体系化标准要求，来规范和健全马拉松赛事医疗保障工作的组织管理和运营执行，提升风险防范的基本能力建设。
+
+特别感谢中国田径协会领导对标准的制定工作给予了大力支持。经过起草专家们的不懈努力，从马拉松赛事现场医疗保障的角度，提出了科学、系统的要求，确保了标准的适应性和有效性。
+
+2021年12月15日，我们在北京召开了"中国马拉松赛事医疗保障"标准发布会暨专家论坛，主办方是中国田径协会和中国医学救援协会，协办方是首都媒体跑团和毛线团公益跑团。会上发布了《马拉松赛事现场医疗保障人员配置要求》、《马拉松赛事现场医疗保障设施设备配置要求》两项标准。这既是我们两个协会的首次合作成果，也是中国马拉松医疗保障领域的首批标准。
+
+中国田径协会的副主席蔡勇同志在发布会上做了重要发言，指出：
+
+> "中国田径协会携手中国医学救援协会，积极利用自身资源和优势。在深入调查研究的基础上，共同起草并发布两项马拉松赛事医疗的配置标准。本次标准的发布是提升路跑赛事标准化发展的重要手段。体育标准化是推动体育体制增效的重要保障，是推动体育高质量发展的重要内容。"
+
+### 标准应用的期待和展望
+
+今天的会上，将有几位我们标准起草单位的代表做主题分享，有来自绍兴市卫健委的潘亮亮处长、来自浙江省急救指挥中心的蔡文伟主任、来自广东新中体育集团的张昱总监、还有我们专家组召集人的陆乐同志对标准的解读。
+
+还有一位咱们的起草专家，李小白先生是在南非的开普敦马拉松赛的现场参会，他是中国马拉松年度人物、中国马拉松大满贯形象大使。
+
+现场还有很多来自绍兴本地和全国各地的跑者代表和急救培训、紧急救援的代表。
+
+期待各位专家的真知灼见，期待线上、线下的交流分享。
+
+期待我们的跨界合作能进一步地扩充与深化，期待我们共同制定的标准能为中国马拉松事业的发展添砖加瓦，服务全民运动的国家战略，用实际行动落实习近平总书记的"人民至上"、"生命至上"的指示。2:["$","$La",null,{"meta":{"slug":"li-zonghao-speech","title":"李宗浩会长致辞","titleEn":"Speech by President Li Zonghao","author":"李宗浩","authorRole":"中国医学救援协会原会长 / 标准起草专家组组长","date":"2026-05-24","category":"news","summary":"标准起草专家组组长李宗浩教授在绍兴研讨会上的致辞，回顾标准起草历程，展望标准推广与行业发展的未来。","summaryEn":"Professor Li Zonghao's speech at the Shaoxing symposium, reviewing the drafting process and envisioning the future of standard promotion and industry development.","featured":false,"tags":["标准发布","行业发展","专家致辞"],"coverImage":"/images/cover-li-zonghao-speech.png"},"content":{"title":"李宗浩会长致辞","author":"李宗浩","authorRole":"中国医学救援协会原会长 / 标准起草专家组组长","date":"2026-05-24","category":"news","summary":"标准起草专家组组长李宗浩教授在绍兴研讨会上的致辞，回顾标准起草历程，展望标准推广与行业发展的未来。","tags":["'标准发布'","'行业发展'","'专家致辞'"],"body":"$b"},"messages":{"backToHome":"← 返回首页","publishedOn":"发布时间","author":"作者","category":"分类","readMore":"阅读全文","relatedArticles":"相关文章"}}]
+8:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}]]
+1:null
+c:I[9441,["341","static/chunks/341-40e4e5abec9e672e.js","203","static/chunks/app/%5Blocale%5D/layout-a71b7685639628d9.js"],"default"]
+d:I[4486,["341","static/chunks/341-40e4e5abec9e672e.js","203","static/chunks/app/%5Blocale%5D/layout-a71b7685639628d9.js"],"default"]
+e:I[2834,["341","static/chunks/341-40e4e5abec9e672e.js","203","static/chunks/app/%5Blocale%5D/layout-a71b7685639628d9.js"],"default"]
+9:["$","$Lc",null,{"formats":"$undefined","locale":"zh","messages":{"nav":{"home":"首页","standards":"标准解读","interviews":"专家访谈","about":"关于标准","language":"EN"},"home":{"heroTag":"行业标准","heroTitle":"马拉松医疗保障","heroSubtitle":"从经验驱动到标准驱动，守护跑者生命安全","heroCTA":"了解更多","featuredStories":"精选文章","latestUpdates":"最新动态","keyData":"关键数据","stats":{"standards":"首批行业标准","experts":"起草专家","survivalRate":"心脏骤停救活率","events":"保障赛事"}},"article":{"backToHome":"← 返回首页","publishedOn":"发布时间","author":"作者","category":"分类","readMore":"阅读全文","relatedArticles":"相关文章"},"category":{"standards":"标准解读","interviews":"专家访谈","news":"行业动态","allArticles":"全部文章"},"footer":{"standards":"标准文件","standard1":"T/CADERM 8001-2021 人员配置要求","standard2":"T/CADERM 8002-2021 设施设备配置要求","publishedBy":"发布单位","association1":"中国医学救援协会","association2":"中国田径协会","contact":"联系我们","contactEmail":"Liaoyukun@sos919.com.cn","supportedBy":"公益支持","support1":"腾讯公益","support2":"悦尔基金会","copyright":"© 2026 马拉松医疗保障标准推广项目"}},"now":"$undefined","timeZone":"UTC","children":["$","div",null,{"className":"min-h-screen bg-canvas-black","children":[["$","$Ld",null,{}],["$","main",null,{"className":"pt-16","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]}],["$","$Le",null,{}]]}]}]

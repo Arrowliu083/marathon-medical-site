@@ -1,0 +1,57 @@
+3:I[4707,[],""]
+6:I[6423,[],""]
+4:["locale","zh","d"]
+5:["slug","interview-zhang-yu","d"]
+0:["j7Hu35gSLeSVgmD6k1ge-",[[["",{"children":[["locale","zh","d"],{"children":["article",{"children":[["slug","interview-zhang-yu","d"],{"children":["__PAGE__?{\"locale\":\"zh\",\"slug\":\"interview-zhang-yu\"}",{}]}]}]}]},"$undefined","$undefined",true],["",{"children":[["locale","zh","d"],{"children":["article",{"children":[["slug","interview-zhang-yu","d"],{"children":["__PAGE__",{},[["$L1","$L2",null],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","$4","children","article","children","$5","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","$4","children","article","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/217703374ed129d6.css","precedence":"next","crossOrigin":"$undefined"}]],"$L7"],null],null]},[[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]],null],null],["$L8",null]]]]
+a:I[5605,["341","static/chunks/341-40e4e5abec9e672e.js","241","static/chunks/app/%5Blocale%5D/article/%5Bslug%5D/page-ccec590a1a0f5925.js"],"default"]
+7:["$","html",null,{"lang":"zh","children":["$","body",null,{"children":"$L9"}]}]
+b:Tc96,> 在腾讯公益和悦尔基金会支持下，我们邀请T/CADERM 8001-2021和T/CADERM 8002-2021两部马拉松医疗保障标准的发布单位及参与起草的专家，就马拉松医疗保障及标准的实施发表系列文章及采访。如您对上述两个标准的内容和实施，以及马拉松医疗保障有相关问题和意见，欢迎致信：Liaoyukun@sos919.com.cn
+
+## 本次访谈嘉宾：张昱
+
+广东新中体育集团 医疗安全部总监 / 世界田联REMC医疗官
+
+## 访谈要点
+
+张昱先生强调通过**数据驱动、标准化建设、技术赋能、培训普及**四大支柱，系统性提升大型赛事医疗保障水平，让标准从"纸面"真正落到"赛道"上。
+
+### 赛道上每一秒钟都关乎生命
+
+"赛道上每一秒钟都关乎生命，完善的医疗体系和快速响应机制至关重要。"张昱开门见山地指出。
+
+在新中体运营的600余场赛事中，医疗保障体系经历了从粗放到精细的演进。张昱坦言，早期做赛事保障时，很多配置是靠"拍脑袋"决定的。有了标准之后，每个环节都有了明确的参照系——需要多少人、多少设备、怎么布局、怎么调度，都有了清晰的答案。
+
+### 培训不局限于医护人员
+
+张昱特别强调培训的广度："不只培训医护人员，还要培训志愿者、安保人员、赛道工作人员，让每个人都能准确识别危险信号并拨打急救电话。"
+
+在新中体的培训体系中，急救能力被分层级构建：
+
+- **专业医护层：** 医生、护士、急救人员，掌握高级生命支持技能
+- **急救跑者层：** 经过AHA认证的跑者，在比赛中随时响应
+- **观察志愿者层：** 每100米一名，能够识别异常并快速报告
+- **赛道工作人员层：** 补给站、计时点等岗位人员，掌握基础急救知识
+
+### 技术赋能：数字化指挥调度
+
+张昱介绍了新中体正在推进的技术升级方向："引入实时定位、对讲机、视频传输、数字化指挥调度平台、气象实况系统、无人机AI识别算法，实现赛道全数字化，调度指令更精准。"
+
+这些技术手段的应用，使得医疗保障从"人盯人"升级为"系统盯全场"。指挥中心可以实时掌握每位急救人员的位置、每台AED的状态、每辆救护车的动态，在突发事件发生时能够快速调派最近资源。
+
+### 持续迭代：每年复盘更新
+
+"每年复盘更新标准，吸纳全国各地同行实践经验和最新医学指南。"张昱认为，标准不是一成不变的，而是需要在实践中不断检验和完善的。
+
+新中体每一场赛事后都会组织复盘，将经验教训反馈到下一场赛事的保障方案中。这种持续迭代的机制，使得保障能力不断提升。
+
+### 多方协作机制
+
+张昱最后强调："政府、赛事公司、医疗机构、急救组织形成稳定协作机制，保障资源可持续投入和输出。"医疗保障不是某一家机构能够独立完成的事，需要多方形成合力。
+
+对于未来，张昱期待标准能够在更多赛事中得到应用，也希望行业能够形成更加紧密的协作网络，共同守护每一位跑者的安全。2:["$","$La",null,{"meta":{"slug":"interview-zhang-yu","title":"专访｜让标准从\"纸面\"真正落到\"赛道\"","titleEn":"Interview: From Paper to the Race Course","author":"张昱","authorRole":"新中体育集团医疗安全部总监 / 世界田联REMC医疗官","date":"2026-06-10","category":"interviews","summary":"张昱强调通过数据驱动、标准化建设、技术赋能、培训普及四大支柱，系统性提升大型赛事医疗保障水平。","summaryEn":"Zhang Yu emphasizes four pillars — data-driven approach, standardization, technology empowerment, and training — to systematically improve medical support for major events.","featured":false,"tags":["数字化","培训体系","技术赋能"],"coverImage":"/images/cover-interview-zhang-yu.jpg","bilibiliBvid":"BV1TU7K61ECL"},"content":{"title":"专访｜让标准从\"纸面\"真正落到\"赛道\"","author":"张昱","authorRole":"新中体育集团医疗安全部总监 / 世界田联REMC医疗官","date":"2026-06-10","category":"interviews","summary":"张昱强调通过数据驱动、标准化建设、技术赋能、培训普及四大支柱，系统性提升大型赛事医疗保障水平。","tags":["'数字化'","'培训体系'","'技术赋能'"],"body":"$b"},"messages":{"backToHome":"← 返回首页","publishedOn":"发布时间","author":"作者","category":"分类","readMore":"阅读全文","relatedArticles":"相关文章"}}]
+8:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}]]
+1:null
+c:I[9441,["341","static/chunks/341-40e4e5abec9e672e.js","203","static/chunks/app/%5Blocale%5D/layout-a71b7685639628d9.js"],"default"]
+d:I[4486,["341","static/chunks/341-40e4e5abec9e672e.js","203","static/chunks/app/%5Blocale%5D/layout-a71b7685639628d9.js"],"default"]
+e:I[2834,["341","static/chunks/341-40e4e5abec9e672e.js","203","static/chunks/app/%5Blocale%5D/layout-a71b7685639628d9.js"],"default"]
+9:["$","$Lc",null,{"formats":"$undefined","locale":"zh","messages":{"nav":{"home":"首页","standards":"标准解读","interviews":"专家访谈","about":"关于标准","language":"EN"},"home":{"heroTag":"行业标准","heroTitle":"马拉松医疗保障","heroSubtitle":"从经验驱动到标准驱动，守护跑者生命安全","heroCTA":"了解更多","featuredStories":"精选文章","latestUpdates":"最新动态","keyData":"关键数据","stats":{"standards":"首批行业标准","experts":"起草专家","survivalRate":"心脏骤停救活率","events":"保障赛事"}},"article":{"backToHome":"← 返回首页","publishedOn":"发布时间","author":"作者","category":"分类","readMore":"阅读全文","relatedArticles":"相关文章"},"category":{"standards":"标准解读","interviews":"专家访谈","news":"行业动态","allArticles":"全部文章"},"footer":{"standards":"标准文件","standard1":"T/CADERM 8001-2021 人员配置要求","standard2":"T/CADERM 8002-2021 设施设备配置要求","publishedBy":"发布单位","association1":"中国医学救援协会","association2":"中国田径协会","contact":"联系我们","contactEmail":"Liaoyukun@sos919.com.cn","supportedBy":"公益支持","support1":"腾讯公益","support2":"悦尔基金会","copyright":"© 2026 马拉松医疗保障标准推广项目"}},"now":"$undefined","timeZone":"UTC","children":["$","div",null,{"className":"min-h-screen bg-canvas-black","children":[["$","$Ld",null,{}],["$","main",null,{"className":"pt-16","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]}],["$","$Le",null,{}]]}]}]
