@@ -129,18 +129,18 @@ export default function ArticleContent({ meta, content, messages: t }: ArticleCo
           {/* Meta bar — the width anchor: author left edge to date right edge */}
           <div className="flex items-start gap-3 mb-8 pb-8 border-b border-border">
             <div className="flex-shrink-0">
-              <div className="text-[16px] font-bold text-text-primary">
+              <div className="text-[18px] font-extrabold text-text-primary">
                 {content.author}
               </div>
-              <div className="text-[13px] text-text-secondary">
+              <div className="text-[14px] text-text-secondary mt-1">
                 {content.authorRole}
               </div>
             </div>
             <div className="ml-auto flex-shrink-0 text-right">
-              <div className="mono-label text-[11px] text-text-secondary">
+              <div className="mono-label text-[12px] text-text-secondary">
                 {t.publishedOn}
               </div>
-              <div className="text-[13px] text-muted-text">
+              <div className="text-[14px] text-muted-text">
                 {content.date}
               </div>
             </div>
