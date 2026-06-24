@@ -30,7 +30,7 @@ export default function Nav() {
           <span className="display-hero text-xl md:text-[22px] leading-none text-accent tracking-tight">
             MARATHON FIRSTAID
           </span>
-          <span className="hidden md:inline font-sans font-bold text-[17px] text-text-primary leading-none pb-[2px]">
+          <span className="hidden md:inline font-sans font-extrabold text-[18px] text-text-primary leading-none pb-[1px]">
             {locale === 'zh' ? '马拉松医疗保障标准及最佳实践' : 'Marathon Medical Standards & Best Practice'}
           </span>
         </Link>
