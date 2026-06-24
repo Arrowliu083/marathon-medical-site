@@ -25,12 +25,12 @@ export default function Nav() {
         {/* Logo — site name */}
         <Link
           href={`/${locale}`}
-          className="flex items-baseline gap-3 hover:opacity-80 transition-opacity duration-150"
+          className="flex items-end gap-3 hover:opacity-80 transition-opacity duration-150"
         >
           <span className="display-hero text-xl md:text-[22px] leading-none text-accent tracking-tight">
             MARATHON FIRSTAID
           </span>
-          <span className="hidden md:inline font-sans font-bold text-[14px] text-text-primary translate-y-[1px]">
+          <span className="hidden md:inline font-sans font-bold text-[17px] text-text-primary leading-none pb-[2px]">
             {locale === 'zh' ? '马拉松医疗保障标准及最佳实践' : 'Marathon Medical Standards & Best Practice'}
           </span>
         </Link>
