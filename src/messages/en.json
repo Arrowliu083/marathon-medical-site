@@ -15,10 +15,9 @@
     "latestUpdates": "Latest Updates",
     "keyData": "Key Data",
     "stats": {
-      "standards": "First Standards",
       "experts": "Drafting Experts",
-      "survivalRate": "Cardiac Arrest Survival",
-      "events": "Events Covered"
+      "units": "Drafting Organizations",
+      "survivalRate": "Cardiac Arrest Survival Best Practice"
     }
   },
   "article": {

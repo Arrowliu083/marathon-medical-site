@@ -15,10 +15,9 @@
     "latestUpdates": "最新动态",
     "keyData": "关键数据",
     "stats": {
-      "standards": "首批行业标准",
       "experts": "起草专家",
-      "survivalRate": "心脏骤停救活率",
-      "events": "保障赛事"
+      "units": "起草单位",
+      "survivalRate": "心脏骤停救活率最佳实践"
     }
   },
   "article": {

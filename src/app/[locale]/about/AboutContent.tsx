@@ -160,33 +160,81 @@ export default function AboutContent({ messages: m }: { messages: AboutMessages 
       {/* Key experts */}
       <div className="mb-16">
         <h2 className="mono-label text-[12px] text-accent mb-8">
-          核心专家
+          标准起草专家及单位
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {[
-            { name: '李宗浩', role: '专家组组长', org: '中国医学救援协会原会长' },
-            { name: '陆乐', role: '专家组召集人', org: '第一反应创始人' },
-            { name: '蔡文伟', role: '起草专家', org: '浙江省急救指挥中心副主任' },
-            { name: '廖育鲲', role: '起草专家', org: '世界田联REMC医疗官' },
-            { name: '张昱', role: '起草专家', org: '新中体育集团医疗安全部总监' },
-            { name: '陆一鸣', role: '起草专家', org: '上海瑞金医院' },
-          ].map((expert) => (
-            <div
-              key={expert.name}
-              className="rounded-card border border-border p-6 bg-canvas-black"
-            >
-              <div className="img-placeholder rounded-round w-16 h-16 mb-4 text-[10px] flex items-center justify-center">
-                {expert.name[0]}
+
+        {/* 专家组组长 & 召集人 */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-10">
+          <div className="rounded-feature border border-accent/30 bg-accent/5 p-8">
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-20 h-20 rounded-round bg-accent/20 flex items-center justify-center text-accent text-[28px] font-bold font-sans">
+                李
               </div>
-              <h3 className="font-sans font-bold text-[18px] text-text-primary mb-1">
-                {expert.name}
-              </h3>
-              <p className="mono-label text-[10px] text-accent mb-2">
-                {expert.role}
-              </p>
-              <p className="text-[13px] text-text-secondary">
-                {expert.org}
-              </p>
+              <div>
+                <h3 className="font-sans font-bold text-[24px] text-text-primary">李宗浩</h3>
+                <p className="mono-label text-[11px] text-accent mt-1">专家组组长</p>
+              </div>
+            </div>
+            <p className="text-[14px] text-text-secondary leading-relaxed">
+              中国医学救援协会原会长，中国灾害防御协会救援医学会会长，中国心肺复苏医学先驱，主持制定两项标准。
+            </p>
+          </div>
+
+          <div className="rounded-feature border border-accent/20 bg-surface p-8">
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-20 h-20 rounded-round bg-accent/10 flex items-center justify-center text-accent text-[28px] font-bold font-sans">
+                陆
+              </div>
+              <div>
+                <h3 className="font-sans font-bold text-[24px] text-text-primary">陆乐</h3>
+                <p className="mono-label text-[11px] text-accent mt-1">专家组召集人</p>
+              </div>
+            </div>
+            <p className="text-[14px] text-text-secondary leading-relaxed">
+              第一反应创始人，马拉松赛事医疗保障标准主要起草人，中国医学救援协会急救分会常务副会长。
+            </p>
+          </div>
+        </div>
+
+        {/* 全部起草专家 */}
+        <h3 className="mono-label text-[11px] text-accent mb-4">
+          主要起草人（共38位）
+        </h3>
+        <div className="rounded-card border border-border p-6 bg-canvas-black mb-10">
+          <p className="text-[14px] text-text-secondary leading-relaxed">
+            李宗浩、陆乐、钟雯彬、陆韬宏、戴阳、顾帮朝、杨桦、陆一鸣、彭碧波、蔡文伟、喇建康、阳杰、高丁、陈辉、王韧、王莉、张瑛瑛、陆莺、李小白、毛大庆、马宏贇、李永生、刘岳、丁涛、李长征、陶婷婷、任志刚、李璐、侯斌、廖育鲲、倪震楚、尤晓彤、徐瑞、杨溢、孙翀、安佰京、卢阳光、吕宗恕
+          </p>
+        </div>
+
+        {/* 起草单位 */}
+        <h3 className="mono-label text-[11px] text-accent mb-4">
+          起草单位（共17家）
+        </h3>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+          {[
+            '中国医学救援协会',
+            '中国田径协会',
+            '上海浦东新区第一反应志愿服务中心',
+            '上海市卫生健康委员会',
+            '江苏省卫生健康委员会',
+            '绍兴市卫生健康委员会',
+            '昆山市卫生健康委员会',
+            '浙江省人民医院',
+            '四川省凉山州急救中心',
+            '上海急诊医师协会',
+            '上海马拉松医学研究所',
+            '上海救要救信息科技有限公司',
+            '杭州飞宇教育科技有限公司',
+            '深圳市城市公共安全技术研究院有限公司',
+            '中安标准（北京）医学研究院',
+            '广州悦尔公益基金会',
+            '腾讯公益慈善基金会',
+          ].map((org) => (
+            <div
+              key={org}
+              className="rounded-card border border-border p-4 bg-surface hover:border-accent/30 transition-colors duration-150"
+            >
+              <p className="text-[14px] text-text-primary">{org}</p>
             </div>
           ))}
         </div>

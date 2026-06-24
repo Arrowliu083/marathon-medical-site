@@ -17,10 +17,9 @@ export default async function HomePage() {
     latestUpdates: t('latestUpdates'),
     keyData: t('keyData'),
     stats: {
-      standards: t('stats.standards'),
       experts: t('stats.experts'),
+      units: t('stats.units'),
       survivalRate: t('stats.survivalRate'),
-      events: t('stats.events'),
     },
   };
 

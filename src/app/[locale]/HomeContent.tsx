@@ -15,10 +15,9 @@ interface HomeMessages {
   latestUpdates: string;
   keyData: string;
   stats: {
-    standards: string;
     experts: string;
+    units: string;
     survivalRate: string;
-    events: string;
   };
 }
 
@@ -86,15 +85,7 @@ export default function HomeContent({ messages: t }: { messages: HomeMessages })
           <h2 className="mono-label text-[12px] text-accent mb-8 text-center">
             {t.keyData}
           </h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-            <div>
-              <div className="display-hero text-[clamp(2rem,4vw,3.813rem)] text-accent mb-2">
-                2
-              </div>
-              <div className="mono-label text-[11px] text-text-secondary">
-                {t.stats.standards}
-              </div>
-            </div>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
             <div>
               <div className="display-hero text-[clamp(2rem,4vw,3.813rem)] text-accent mb-2">
                 38
@@ -105,18 +96,18 @@ export default function HomeContent({ messages: t }: { messages: HomeMessages })
             </div>
             <div>
               <div className="display-hero text-[clamp(2rem,4vw,3.813rem)] text-accent mb-2">
-                92%
+                17
               </div>
               <div className="mono-label text-[11px] text-text-secondary">
-                {t.stats.survivalRate}
+                {t.stats.units}
               </div>
             </div>
             <div>
               <div className="display-hero text-[clamp(2rem,4vw,3.813rem)] text-accent mb-2">
-                568
+                {'>'}92%
               </div>
               <div className="mono-label text-[11px] text-text-secondary">
-                {t.stats.events}
+                {t.stats.survivalRate}
               </div>
             </div>
           </div>
