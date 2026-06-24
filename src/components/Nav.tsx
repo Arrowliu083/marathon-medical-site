@@ -22,16 +22,16 @@ export default function Nav() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-sm border-b border-border">
       <div className="max-w-[1280px] mx-auto px-6 md:px-12 h-16 flex items-center justify-between">
-        {/* Logo — site name: Chinese primary, English secondary */}
+        {/* Logo — site name */}
         <Link
           href={`/${locale}`}
-          className="flex items-baseline gap-2 hover:opacity-80 transition-opacity duration-150"
+          className="flex items-center gap-3 hover:opacity-80 transition-opacity duration-150"
         >
-          <span className="font-sans font-bold text-[17px] md:text-[19px] text-text-primary tracking-[-0.01em]">
-            {locale === 'zh' ? '马拉松医疗保障标准及最佳实践' : 'Marathon Medical Standards & Best Practice'}
-          </span>
-          <span className="hidden md:inline font-sans text-[11px] text-text-secondary tracking-[0.08em] uppercase">
+          <span className="display-hero text-xl md:text-[22px] leading-none text-accent tracking-tight">
             MARATHON FIRSTAID
+          </span>
+          <span className="hidden md:inline font-sans font-bold text-[15px] text-text-primary">
+            {locale === 'zh' ? '马拉松医疗保障标准及最佳实践' : 'Marathon Medical Standards & Best Practice'}
           </span>
         </Link>
 
