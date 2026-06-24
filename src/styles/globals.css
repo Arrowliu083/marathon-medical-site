@@ -239,22 +239,22 @@ a {
 }
 
 /* ============================================================
-   ARTICLE PROSE (Long-form reading)
+   ARTICLE CONTENT (within meta-bar width bounds)
    ============================================================ */
 
-/* Full-width article content — no max-width clamp, fills the container */
-.article-content-fullwidth {
+.article-content {
   font-family: 'Space Grotesk', 'Noto Sans SC', Helvetica, Arial, sans-serif;
   font-size: var(--text-base);
   line-height: 1.75;
   color: var(--text-muted);
+  width: 100%;
 }
 
-.article-content-fullwidth > * + * {
+.article-content > * + * {
   margin-top: var(--space-5);
 }
 
-.article-content-fullwidth h2 {
+.article-content h2 {
   font-family: 'Bebas Neue', 'Noto Sans SC', Impact, 'Arial Black', sans-serif;
   font-weight: 900;
   font-size: var(--text-4xl);
@@ -265,7 +265,7 @@ a {
   margin-bottom: var(--space-4);
 }
 
-.article-content-fullwidth h3 {
+.article-content h3 {
   font-family: 'Space Grotesk', 'Noto Sans SC', Helvetica, Arial, sans-serif;
   font-weight: 700;
   font-size: var(--text-xl);
@@ -275,12 +275,12 @@ a {
   margin-bottom: var(--space-3);
 }
 
-.article-content-fullwidth p {
+.article-content p {
   margin-bottom: var(--space-5);
 }
 
-/* Blockquote — red background full-width, inner text 90% width, justified */
-.article-content-fullwidth blockquote {
+/* Blockquote — red background full width, inner text 90% width, justified */
+.article-content blockquote {
   border: none;
   border-left: 4px solid var(--accent);
   padding: var(--space-5) var(--space-6);
@@ -295,47 +295,46 @@ a {
   box-sizing: border-box;
 }
 
-/* Inner text of blockquote: 90% width of the red background, justified */
-.article-content-fullwidth blockquote p,
-.article-content-fullwidth blockquote > * {
+.article-content blockquote p,
+.article-content blockquote > * {
   max-width: 90%;
   margin-left: auto;
   margin-right: auto;
   text-align: justify;
 }
 
-.article-content-fullwidth strong {
+.article-content strong {
   color: var(--text-primary);
   font-weight: 700;
 }
 
-.article-content-fullwidth ul,
-.article-content-fullwidth ol {
+.article-content ul,
+.article-content ol {
   margin: var(--space-5) 0;
   padding-left: var(--space-6);
 }
 
-.article-content-fullwidth li {
+.article-content li {
   margin-bottom: var(--space-2);
   line-height: 1.6;
 }
 
-.article-content-fullwidth li::marker {
+.article-content li::marker {
   color: var(--accent);
 }
 
-.article-content-fullwidth table {
+.article-content table {
   width: 100%;
   border-collapse: collapse;
   margin: var(--space-8) 0;
   font-size: var(--text-sm);
 }
 
-.article-content-fullwidth thead {
+.article-content thead {
   border-bottom: 2px solid var(--accent);
 }
 
-.article-content-fullwidth th {
+.article-content th {
   text-align: left;
   font-family: 'JetBrains Mono', monospace;
   font-size: 0.688rem;
@@ -346,112 +345,7 @@ a {
   font-weight: 600;
 }
 
-.article-content-fullwidth td {
-  padding: var(--space-3) var(--space-4);
-  border-bottom: 1px solid var(--border-light);
-  color: var(--text-muted);
-  line-height: 1.5;
-}
-
-/* Keep old .article-prose for backward compat */
-.article-prose {
-  font-family: 'Space Grotesk', 'Noto Sans SC', Helvetica, Arial, sans-serif;
-  font-size: var(--text-base);
-  line-height: 1.7;
-  color: var(--text-muted);
-  max-width: 65ch;
-}
-
-.article-prose > * {
-  max-width: 65ch;
-}
-
-.article-prose > * + * {
-  margin-top: var(--space-5);
-}
-
-.article-prose h2 {
-  font-family: 'Bebas Neue', 'Noto Sans SC', Impact, 'Arial Black', sans-serif;
-  font-weight: 900;
-  font-size: var(--text-4xl);
-  line-height: 1.08;
-  letter-spacing: -0.005em;
-  color: var(--text-primary);
-  margin-top: var(--space-12);
-  margin-bottom: var(--space-4);
-}
-
-.article-prose h3 {
-  font-family: 'Space Grotesk', 'Noto Sans SC', Helvetica, Arial, sans-serif;
-  font-weight: 700;
-  font-size: var(--text-xl);
-  line-height: 1.25;
-  color: var(--accent);
-  margin-top: var(--space-8);
-  margin-bottom: var(--space-3);
-}
-
-.article-prose p {
-  margin-bottom: var(--space-5);
-}
-
-.article-prose blockquote {
-  border-left: 3px solid var(--accent);
-  padding: var(--space-4) var(--space-6);
-  margin: var(--space-8) 0;
-  color: var(--text-muted);
-  font-family: 'Space Grotesk', 'Noto Sans SC', Helvetica, Arial, sans-serif;
-  font-size: var(--text-base);
-  line-height: 1.6;
-  background: var(--accent-light);
-  border-radius: 0 var(--radius-nested) var(--radius-nested) 0;
-  max-width: 65ch;
-  box-sizing: border-box;
-}
-
-.article-prose strong {
-  color: var(--text-primary);
-  font-weight: 700;
-}
-
-.article-prose ul,
-.article-prose ol {
-  margin: var(--space-5) 0;
-  padding-left: var(--space-6);
-}
-
-.article-prose li {
-  margin-bottom: var(--space-2);
-  line-height: 1.6;
-}
-
-.article-prose li::marker {
-  color: var(--accent);
-}
-
-.article-prose table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: var(--space-8) 0;
-  font-size: var(--text-sm);
-}
-
-.article-prose thead {
-  border-bottom: 2px solid var(--accent);
-}
-
-.article-prose th {
-  text-align: left;
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 0.688rem;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  color: var(--accent);
-  padding: var(--space-3) var(--space-4);
-  font-weight: 600;
-}
-
-.article-prose td {
+.article-content td {
   padding: var(--space-3) var(--space-4);
   border-bottom: 1px solid var(--border-light);
   color: var(--text-muted);

@@ -95,119 +95,138 @@ export default function ArticleContent({ meta, content, messages: t }: ArticleCo
         {t.backToHome}
       </Link>
 
-      {/* Meta anchor bar — defines the content width boundary */}
-      <div className="flex items-start gap-3 mb-6 pb-6 border-b border-border">
-        <div className="flex-shrink-0">
-          <div className="text-[15px] font-bold text-text-primary">
-            {content.author}
+      <div className="grid grid-cols-1 lg:grid-cols-4 gap-12">
+        {/* Main article */}
+        <article className="lg:col-span-3">
+          {/* Cover image — only for non-interview articles */}
+          {!isInterview && (
+            <div className="w-full aspect-[16/9] rounded-card overflow-hidden mb-8 border border-border">
+              <img
+                src={meta.coverImage}
+                alt={content.title}
+                className="w-full h-full object-cover"
+              />
+            </div>
+          )}
+
+          {/* Kicker */}
+          <div className="flex items-center gap-3 mb-4">
+            <span className="pill-tag pill-tag--mint">
+              {categoryLabel}
+            </span>
+            {content.tags && content.tags.map((tag: string) => (
+              <span key={tag} className="mono-label text-[10px] text-text-secondary">
+                #{tag.replace(/'/g, '')}
+              </span>
+            ))}
           </div>
-          <div className="text-[12px] text-text-secondary">
-            {content.authorRole}
-          </div>
-        </div>
-        <div className="ml-auto flex-shrink-0 text-right">
-          <div className="mono-label text-[10px] text-text-secondary">
-            {t.publishedOn}
-          </div>
-          <div className="text-[12px] text-muted-text">
-            {content.date}
-          </div>
-        </div>
-      </div>
 
-      {/* Kicker */}
-      <div className="flex items-center gap-3 mb-4">
-        <span className="pill-tag pill-tag--mint">
-          {categoryLabel}
-        </span>
-        {content.tags && content.tags.map((tag: string) => (
-          <span key={tag} className="mono-label text-[10px] text-text-secondary">
-            #{tag.replace(/'/g, '')}
-          </span>
-        ))}
-      </div>
+          {/* Title — same left as author, same right as date */}
+          <h1 className="font-sans font-bold text-[clamp(2rem,5vw,4.75rem)] mb-6 text-text-primary leading-[1.08] tracking-[-0.01em]" style={{ textWrap: 'balance' }}>
+            {content.title}
+          </h1>
 
-      {/* Title — same left/right bounds as meta bar */}
-      <h1 className="font-sans font-bold text-[clamp(2rem,5vw,4.75rem)] mb-8 text-text-primary leading-[1.08] tracking-[-0.01em]" style={{ textWrap: 'balance' }}>
-        {content.title}
-      </h1>
-
-      {/* Cover image — only for non-interview articles */}
-      {!isInterview && (
-        <div className="w-full aspect-[16/9] rounded-card overflow-hidden mb-10 border border-border">
-          <img
-            src={meta.coverImage}
-            alt={content.title}
-            className="w-full h-full object-cover"
-          />
-        </div>
-      )}
-
-      {/* Content area — full width, same bounds as meta bar */}
-      <div className="article-content-fullwidth">
-        {/* For interviews: render guest intro first, then video, then key points */}
-        {isInterview && hasVideo && introBody ? (
-          <>
-            <MarkdownRenderer content={introBody} />
-
-            <div className="mt-8 mb-8">
-              <h3 className="mono-label text-[12px] text-accent mb-3">
-                {locale === 'zh' ? '访谈视频' : 'Interview Video'}
-              </h3>
-              <div
-                className="relative w-full rounded-card overflow-hidden border border-border"
-                style={{ paddingTop: '56.25%' }}
-              >
-                <iframe
-                  src={`https://player.bilibili.com/player.html?bvid=${meta.bilibiliBvid}&page=1&autoplay=0`}
-                  scrolling="no"
-                  allowFullScreen
-                  className="absolute inset-0 w-full h-full"
-                  style={{ border: 'none' }}
-                  title={content.title}
-                />
+          {/* Meta bar — the width anchor: author left edge to date right edge */}
+          <div className="flex items-start gap-3 mb-8 pb-8 border-b border-border">
+            <div className="flex-shrink-0">
+              <div className="text-[16px] font-bold text-text-primary">
+                {content.author}
+              </div>
+              <div className="text-[13px] text-text-secondary">
+                {content.authorRole}
               </div>
             </div>
-
-            {pointsBody && <MarkdownRenderer content={pointsBody} />}
-          </>
-        ) : (
-          <>
-            {hasVideo && (
-              <div className="mb-8">
-                <h3 className="mono-label text-[12px] text-accent mb-3">
-                  {locale === 'zh' ? '视频' : 'Video'}
-                </h3>
-                <div
-                  className="relative w-full rounded-card overflow-hidden border border-border"
-                  style={{ paddingTop: '56.25%' }}
-                >
-                  <iframe
-                    src={`https://player.bilibili.com/player.html?bvid=${meta.bilibiliBvid}&page=1&autoplay=0`}
-                    scrolling="no"
-                    allowFullScreen
-                    className="absolute inset-0 w-full h-full"
-                    style={{ border: 'none' }}
-                    title={content.title}
-                  />
-                </div>
+            <div className="ml-auto flex-shrink-0 text-right">
+              <div className="mono-label text-[11px] text-text-secondary">
+                {t.publishedOn}
               </div>
+              <div className="text-[13px] text-muted-text">
+                {content.date}
+              </div>
+            </div>
+          </div>
+
+          {/* Article content — width anchored to meta bar bounds */}
+          <div className="article-content">
+            {/* For interviews: render guest intro first, then video, then key points */}
+            {isInterview && hasVideo && introBody ? (
+              <>
+                <MarkdownRenderer content={introBody} />
+
+                <div className="mt-8 mb-8">
+                  <h3 className="mono-label text-[12px] text-accent mb-3">
+                    {locale === 'zh' ? '访谈视频' : 'Interview Video'}
+                  </h3>
+                  <div
+                    className="relative w-full rounded-card overflow-hidden border border-border"
+                    style={{ paddingTop: '56.25%' }}
+                  >
+                    <iframe
+                      src={`https://player.bilibili.com/player.html?bvid=${meta.bilibiliBvid}&page=1&autoplay=0`}
+                      scrolling="no"
+                      allowFullScreen
+                      className="absolute inset-0 w-full h-full"
+                      style={{ border: 'none' }}
+                      title={content.title}
+                    />
+                  </div>
+                </div>
+
+                {pointsBody && <MarkdownRenderer content={pointsBody} />}
+              </>
+            ) : (
+              <>
+                {hasVideo && (
+                  <div className="mb-8">
+                    <h3 className="mono-label text-[12px] text-accent mb-3">
+                      {locale === 'zh' ? '视频' : 'Video'}
+                    </h3>
+                    <div
+                      className="relative w-full rounded-card overflow-hidden border border-border"
+                      style={{ paddingTop: '56.25%' }}
+                    >
+                      <iframe
+                        src={`https://player.bilibili.com/player.html?bvid=${meta.bilibiliBvid}&page=1&autoplay=0`}
+                        scrolling="no"
+                        allowFullScreen
+                        className="absolute inset-0 w-full h-full"
+                        style={{ border: 'none' }}
+                        title={content.title}
+                      />
+                    </div>
+                  </div>
+                )}
+
+                <MarkdownRenderer content={content.body} />
+              </>
             )}
+          </div>
 
-            <MarkdownRenderer content={content.body} />
-          </>
-        )}
-      </div>
+          {/* Article footer */}
+          <div className="mt-12 pt-8 border-t border-border">
+            <div className="flex flex-wrap gap-2">
+              {content.tags && content.tags.map((tag: string) => (
+                <span key={tag} className="pill-tag pill-tag--outline">
+                  {tag.replace(/'/g, '')}
+                </span>
+              ))}
+            </div>
+          </div>
+        </article>
 
-      {/* Article footer */}
-      <div className="mt-12 pt-8 border-t border-border">
-        <div className="flex flex-wrap gap-2">
-          {content.tags && content.tags.map((tag: string) => (
-            <span key={tag} className="pill-tag pill-tag--outline">
-              {tag.replace(/'/g, '')}
-            </span>
-          ))}
-        </div>
+        {/* Sidebar */}
+        <aside className="lg:col-span-1">
+          <div className="sticky top-24">
+            <h3 className="mono-label text-[11px] text-accent mb-4">
+              {t.relatedArticles}
+            </h3>
+            <div className="flex flex-col gap-4">
+              {relatedArticles.map((article) => (
+                <ArticleCard key={article.slug} article={article} size="small" />
+              ))}
+            </div>
+          </div>
+        </aside>
       </div>
     </div>
   );
