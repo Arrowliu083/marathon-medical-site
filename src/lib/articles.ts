@@ -55,7 +55,7 @@ export const articles: ArticleMeta[] = [
     summaryEn: 'An in-depth analysis of the 300m first aider spacing requirement — from the golden four minutes of cardiac arrest response and heat illness concurrency to the distinction between first aiders and observer volunteers.',
     featured: true,
     tags: ['急救员密度', '黄金四分钟', '心脏骤停', '热急症'],
-    coverImage: '/images/cover-aed-in-standards.png',
+    coverImage: '/images/cover-why-300m-first-aider.jpg',
   },
   {
     slug: 'three-cores-nine-pillars',
