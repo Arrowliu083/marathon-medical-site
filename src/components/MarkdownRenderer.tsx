@@ -62,7 +62,7 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
 
   return (
     <div
-      className="article-prose"
+      className="article-content"
       dangerouslySetInnerHTML={{ __html: html }}
     />
   );
